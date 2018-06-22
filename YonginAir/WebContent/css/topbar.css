@@ -1,0 +1,44 @@
+body {
+  padding-top: 50px;
+}
+
+.triangle {
+  position:fixed;
+  top:0;
+  right:0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 82px 82px 0;
+  border-color: transparent #ff9900 transparent transparent;
+}
+.triangle .text {
+  display:block;
+  margin: 30px;
+  width: 80px;
+  color:#000;
+  transform: rotate(45deg);
+}
+.triangle a{
+  text-decoration: none;
+}
+
+.hello{
+  position:fixed;
+  top:5px;
+  right:100px;
+  color:#000;
+}
+
+.topspace{
+  position: absolute;
+  height: 100px;
+  top:10px;
+  left:70px;
+}
+.topspace1{
+  height: 60px;
+}
+.topspace2{
+  height: 40px;
+}

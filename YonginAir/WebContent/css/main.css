@@ -1,0 +1,92 @@
+
+
+/* MAIN */
+
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200);
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+html{
+	background: #004050;
+}
+.wrap{
+	width: 830px;
+	height: auto;
+	margin: 70px 100px;
+	float: left;
+}
+div[class^="metro"]{
+	float: left;
+	margin: 0 10px 10px 0;
+	height: 95px;
+	position: relative;
+	cursor: pointer;
+	transition: all .4s ease;
+  border: solid 2px transparent;
+}
+div[class^="metro"]:hover{
+	border: solid 2px mintcream;
+}
+div[class^="metro"]:active{
+	transform: scale(.98,.98);
+}
+.metro-big{width: 200px;}
+.metro-small{width: 95px;}
+.last{margin-right: 0 !important;}
+.Start{
+	color: white;
+	font: normal 50px 'Yanone Kaffeesatz', sans-serif;
+	margin-bottom: 50px;
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  transition: all .3s ease;
+}
+.Start:hover{
+  text-shadow: 0 0 4px white;
+}
+.label{
+	position: absolute;
+	color: white;
+	font: 500 12px sans-serif;
+	left: 10px;
+  user-select: none;
+}
+.bottom{bottom: 5px;}
+.top{top: 5px;}
+.chat{background: #df0024;}
+.calendar{
+  background: #00a9ec;
+}
+.store{background: #ff9000;}
+.ie{background: #00abdc;}
+.people{background: #0e5d30;}
+.video{background: #8b0189;}
+.chrome{background: #ce4e4e;}
+.music{
+  background: #5f5f5f;
+}
+.games{background: #00ff00;}
+.twitter{background: #19bfe5;}
+.gp{background: #d64136;}
+.fb{background: #3b5998;}
+.cnn{background: #fe0000;}
+.ps{background: #0c5fa1;}
+
+div[class^="icon"]{
+	width: 45px;
+	height: 45px;
+	margin: 20px auto;
+	background-size: 45px 45px;
+}
+

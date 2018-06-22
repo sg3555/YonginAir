@@ -1,0 +1,134 @@
+
+html{
+  background-color:white !important;
+}
+.mainP2{
+    transform: translate(100px);
+    overflow:hidden;
+}
+body { 
+  margin: 0 auto; 
+  font: 16px sans-serif;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+input, select {
+  display: block;
+  width: 50%;
+  padding: 3px 5px;
+  line-height: 26px;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  box-sizing: content-box;
+  -webkit-appearance: none;
+}
+
+.btn-green {
+  width:70px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #e5e5e5;
+  color:#424242;
+  font-size:14px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-green:hover{
+	background:#70995C;
+}
+
+.btn-red {
+  width:70px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #e5e5e5;
+  color:#424242;
+  font-size:14px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-red:hover{
+	background:#8C1D04;
+}
+
+.btn-green-big {
+  width:85px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #e5e5e5;
+  color:#424242;
+  font-size:14px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-green-big:hover{
+	background:#70995C;
+}
+
+.btn-red-big {
+  width:85px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #e5e5e5;
+  color:#424242;
+  font-size:14px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-red-big:hover{
+	background:#8C1D04;
+}
+
+
+
+
+.btn-green-bigger {
+  width:120px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #e5e5e5;
+  color:#424242;
+  font-size:14px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-green-bigger:hover{
+	background:#70995C;
+}
+
+.btn-red-bigger {
+  width:120px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #e5e5e5;
+  color:#424242;
+  font-size:14px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-red-bigger:hover{
+	background:#70995C;
+}
+.btn-green-biggest {
+  width:140px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #e5e5e5;
+  color:#424242;
+  font-size:14px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+.btn-green-biggest:hover{
+	background:#70995C;
+}

@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+table {
+  background: #012B39;
+  border-radius: 3px;
+  border-collapse: collapse;
+  margin: 2px;
+}
+
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 16px;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 16px;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
+.able:hover{
+  cursor: pointer;
+}
+.table-top{
+  padding:10px;
+  margin:10px;
+}
+.mainP2{
+    transform: translate(100px);
+    overflow:hidden;
+}
+
+.maintable{
+	width:633px;
+}
+.maintable th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  text-align: left;
+}
+.maintable td {
+  color: #fff;
+   font-size: 12px;
+  font-weight: 400;
+  padding: 6px 12px;
+}
+
+.listtable{
+	width:1200px;
+}
+.listtable th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  text-align: left;
+}
+.listtable td {
+  color: #fff;
+   font-size: 14px;
+  font-weight: 400;
+  padding: 6px 12px;
+}

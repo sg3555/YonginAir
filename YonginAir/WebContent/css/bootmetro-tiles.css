@@ -1,0 +1,373 @@
+
+html{
+  background-color:white !important;
+}
+.blue {
+   background-color:  #E9573F !important;
+}
+.green {
+   background-color: #4A89DC !important;
+}
+.greenDark {
+   background-color: #008641 !important;
+}
+.red {
+   background-color: #bc1c48 !important;
+}
+.yellow {
+   background-color: #ffc40d !important;
+}
+.orange {
+   background-color: #CD4900 !important;
+}
+.pink {
+   background-color: #c3325f !important;
+}
+.purple {
+   background-color: #603cba !important;
+}
+.darken {
+   background-color: #1c1c1c !important;
+}
+
+
+.title-text{
+  color:black;
+  padding-left: 70px;
+}
+.title-text1{
+  color:black;
+  padding-bottom: 5px;
+}
+.title-text2{
+  font-weight: bold ;
+  color:white;
+}
+
+
+.mainUI .mainUI-sections .mainUI-section.menu { width: 640px; margin-left: 0;}
+.mainUI .mainUI-sections .mainUI-section.plane { 
+  float: left;
+  width: 400px; 
+  height: 650px;
+  margin-left: 0;
+  border: 0 none;
+  border-radius:3px;
+}
+
+input[type="date"]{
+  background:#000;
+  background:rgba(255,255,255,0.7);
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3) inset, 0 1px rgba(255, 255, 255, 0.08);
+  color: #000;
+  border: 0 none;
+  border-radius:3px;
+  transition:background .2s;
+  width:180px;
+  height: 25px;
+  margin: 2px;
+}
+label.dropdown select{
+  background:#000;
+  background:rgba(255,255,255,0.7);
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3) inset, 0 1px rgba(255, 255, 255, 0.08);
+  color: #000;
+  border: 0 none;
+  border-radius:3px;
+  transition:background .2s;
+  width:180px;
+  height: 25px;
+  margin: 2px;
+}
+label.dropdown select option{
+  margin-bottom:0.625em 1%;
+  cursor:pointer;
+  transition:all .2s;
+}
+.search{
+  padding: 10px;
+  margin:10px;
+  width:300px;
+  float: right;
+  color:white;
+}
+
+.form-wrapper {
+  float:left;
+  width:100%;
+  max-width:75.000em;
+  background:#FFFFFF;
+  overflow:hidden;
+}
+.search_blank{
+  width:180px;
+  height: 20px;
+  padding: 5px;
+  display: inline-block;
+}
+.board{
+  width:605px;
+  height: 338px;
+  border: 0 none;
+  display: inline-block;
+}
+
+
+
+
+.mainUI-sections h2 {
+  margin-left: 5px;
+  font-family: "OpenSansRegular",Arial,Helvetica,sans-serif;
+  font-weight: 100;
+  text-transform: lowercase;
+}
+
+.mainUI .mainUI-sections .mainUI-section {
+   position: relative;
+   float: left;
+   width: auto;
+   height: auto;
+   margin-right: 40px;
+}
+
+.mainUI .span, .single, .double{
+   position: relative;
+   display: block;
+   float: left;
+   margin: 5px;
+   padding: 0;
+   width: 150px;
+   height: 150px;
+   color: #FFF;
+   cursor: pointer;
+   text-decoration: none;
+   background-color: #2C83EF;
+}
+   .mainUI .span:hover , .single:hover, .double:hover{
+    outline: 1.8px mintcream solid;
+   }
+
+
+
+.mainUI .single .icon-wrapper1 {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 8px;
+  margin-right: 32px;
+  text-align: center;
+}
+.mainUI .single .icon-wrapper2 {
+  margin-top: 25px;
+  position: relative;
+  padding-top: 8px;
+  margin-right: 0px;
+  text-align: center;
+}
+.mainUI .single .icon-wrapper3 {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 8px;
+  margin-right: 25px;
+  text-align: center;
+}
+.mainUI .single .icon-wrapper4 {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 8px;
+  margin-right: 0px;
+  text-align: center;
+}
+.mainUI .single .icon-wrapper5 {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 8px;
+  margin-right: 15px;
+  text-align: center;
+}
+.mainUI .single .icon-wrapper6 {
+  margin-top: 25px;
+  position: relative;
+  padding-top: 8px;
+  margin-right: 18px;
+  text-align: center;
+}
+.mainUI .single .icon-wrapper7 {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 8px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+  .mainUI .single .app-label {
+     position: absolute;
+     left: 20px;
+     bottom: 10px;
+     font-size: 11px;
+  }
+  
+
+.mainUI .double .icon-wrapper {
+   display: block;
+   float: left;
+   width: 80px;
+   height: 80px;
+}
+
+
+.mainUI .double .app-label {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  font-size: 11px;
+}
+
+.mainUI .double {
+  width: 270px;
+  height: 110px;
+  padding: 20px;
+}
+
+.double .icon-wrapper{
+  float: left;
+  margin-right: 18px;
+}
+
+
+
+.button {
+  border: 1px solid #CCCCCC;
+  background: #EEEEEE;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE));
+  padding: 8px 16px;
+  margin:10px;
+  border-radius: 3px;
+  box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+  text-shadow: #FFFFFF 0 1px 0;
+  color: #333333;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+  position: relative;
+  float: right;
+  }
+.button:hover {
+  border: 1px solid #CCCCCC;
+  text-shadow: #FFFFFF 0 1px 0;
+  background: #EEEEEE;
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+  }
+.button:active {
+  text-shadow: #FFFFFF 0 1px 0;
+  border: 1px solid #CCCCCC;
+  background: #FFFFFF;
+  color: #333333;
+  }
+  
+  
+  #container {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#container input[type=radio] {
+	height: 30px;
+  visibility: hidden;
+  margin:0;
+
+}
+
+#container .tablabel1 {
+	background: #E9573F;
+	border-radius: 3px;
+	color: black;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 15px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 3px;
+	padding: 0 25px;
+	text-align: center;
+}
+#container .tablabel2 {
+	background: #4A89DC;
+	border-radius: 3px;
+	color: black;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 15px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 3px;
+	padding: 0 25px;
+	text-align: center;
+}
+#container input[type=radio]:hover + .tablabel {
+	background: #ddd;
+	color: #666;
+}
+
+#container input[type=radio]:checked + .tablabel {
+	background: #E9573F;
+	color: #444;
+	position: relative;
+	z-index: 6;
+}
+#content {
+	width: 300px;
+	z-index: 5;
+}
+
+#content-1 {
+	background: #E9573F;
+	height: 350px;
+	position: relative;
+	width: 300px;
+	z-index: 5;
+}
+#content-2 {
+	background: #4A89DC;
+	height: 350px;
+	position: relative;
+  	width: 300px;
+	z-index: 5;
+}
+#content #content-1, #content #content-2 {
+	opacity: 0;
+	padding: 25px;
+	position: absolute;
+	z-index: -100;
+	
+}
+
+#container input#tab-1:checked ~ #content #content-1,
+#container input#tab-2:checked ~ #content #content-2{
+    opacity: 1;
+    z-index: 100;
+}
+  
+
+.input_blank{
+  height: 3px;
+}
+
+
+
+
+
+.title-text3{
+  font-weight: bold ;
+  color:white;
+  margin:10px;
+  padding:10px;
+}
+.title-text4{
+  color:black;
+  padding-left: 100px;
+}
